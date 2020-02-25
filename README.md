@@ -42,7 +42,7 @@ Please run the following commands:
 cd CSUI
 java -jar CheckSoftGUI.jar
 ```
-### Modifying Simulation Parameters
+### Modifying the Simulation Parameters
 * First select the Test Application
 * Based on the selected application, the default simulation parameters are already provided. 
 * If the user wants to modify the simulation parameters, please follow the guidelines provided on selecting the Test Application. Error messages will pop-up if the values entered are not acceptable. 
