@@ -42,14 +42,17 @@ Please run the following commands:
 cd CSUI
 java -jar CheckSoftGUI.jar
 ```
-Default simulation parameters are already provided. 
-If the user wants to modify the simulation parameters please follow the guidelines provided on selecting the Test Application. Error messages will pop-up if the values entered are not acceptable. 
+### Modifying Simulation Parameters
+* Default simulation parameters are already provided. 
+* If the user wants to modify the simulation parameters please follow the guidelines provided on selecting the Test Application. Error messages will pop-up if the values entered are not acceptable. 
 ### Validating CheckSoft
-To run CheckSoft with the user provided simulation parameters please press the Run CheckSoft button. On successful completion the accuracy of CheckSoft and the latencies associated with the different events will be displayed in the bottom-left part of the GUI.  
+* First select the Test Application
+* To run CheckSoft with the user provided simulation parameters please press the Run CheckSoft button. 
+
+On successful completion the accuracy of CheckSoft and the latencies associated with the different events will be displayed in the bottom-left part of the GUI.  
 ### Verifying the FSM based Inference Logic 
 * First select the Test Application
-* Please modify the probabilities in the actionPDF and maximum number of interactions in maxInteractions. 
-* On clicking the Verify Inference Logic Buuton, the GUI will check if acceptable parameters have been entered and then display the inferences made and the anomalies detected in a separate window. 
+* On clicking the Verify Inference Logic Button, the GUI will check if acceptable parameters have been entered and then display the inferences made and the anomalies detected in a separate window. 
 ## Running Performance Tests
 ### Scalability Test
 To run the scalability test please open a terminal and run the commands provided below :
