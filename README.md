@@ -7,10 +7,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+JDK 8
+MPJExpress 
 
 ```
-Give examples
+
 ```
 
 ### Installing
@@ -44,13 +45,20 @@ cd CSUI
 java -jar CheckSoftGUI.jar
 ```
 
-### And coding style tests
+### Scalability Test
+To run the scalability test please please open a terminal and run the commands provided below :
 
-Explain what these tests test and why
 
 ```
-Give an example
+Open a new terminal
+cd CSUI
+chmod a+x runScalability.sh
+./runScalability.sh 5
 ```
+Please note that the parameter (5 in this case) passed is the number of iterations over which the experimental results will be averaged. The user can provide any other integer value, as desired.
+
+Once the test completes the user can view the new results in the GUI by clicking the Scalability Test button again.
+Please don't run any other tests using the GUI , when running the Sacalability Test. 
 
 ## Deployment
 
