@@ -45,7 +45,7 @@ java -jar CheckSoftGUI.jar
 Default simulation parameters are already provided. 
 If the user wants to modify the simulation parameters please follow the guidelines provided on selecting the Test Application. Error messages will pop-up if the values entered are not acceptable. 
 
-To run CheckSoft with the user provided simulation parameters please press the Run CheckSoft button. On successful completion the accuracy of CheckSoft and the latencies associated with the different parameters will be displayed in the bottom-left part of the GUI.  
+To run CheckSoft with the user provided simulation parameters please press the Run CheckSoft button. On successful completion the accuracy of CheckSoft and the latencies associated with the different events will be displayed in the bottom-left part of the GUI.  
 
 ## Running Performance Tests
 ### Scalability Test
