@@ -50,7 +50,6 @@ To run the scalability test please open a terminal and run the commands provided
 
 
 ```
-Open a new terminal
 cd CSUI
 chmod a+x runScalability.sh
 ./runScalability.sh 5
@@ -61,7 +60,6 @@ To run the Noise Tolerance test please open a terminal and run the commands prov
 
 
 ```
-Open a new terminal
 cd CSUI
 chmod a+x runTolerance.sh
 ./runTolerance.sh 5
