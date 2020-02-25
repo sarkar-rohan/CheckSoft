@@ -67,8 +67,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [MPJExpress](http://mpj-express.org/) - open source Java message passing library
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [WindowBuilder](https://www.eclipse.org/windowbuilder/) - GUI Development
 
 ## Authors
 
