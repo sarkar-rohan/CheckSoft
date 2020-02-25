@@ -48,8 +48,7 @@ java -jar CheckSoftGUI.jar
 ### Validating CheckSoft
 * First select the Test Application
 * To run CheckSoft with the user provided simulation parameters please press the Run CheckSoft button. 
-
-On successful completion the accuracy of CheckSoft and the latencies associated with the different events will be displayed in the bottom-left part of the GUI.  
+* On successful completion the accuracy of CheckSoft and the latencies associated with the different events will be displayed in the bottom-left part of the GUI.  
 ### Verifying the FSM based Inference Logic 
 * First select the Test Application
 * On clicking the Verify Inference Logic Button, the GUI will check if acceptable parameters have been entered and then display the inferences made and the anomalies detected in a separate window. 
