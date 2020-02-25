@@ -1,4 +1,4 @@
-# CheckSoft
+# CheckSoft Simulator
 Simulator for Large-Scale testing of CheckSoft
 
 ## Getting Started
