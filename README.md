@@ -34,9 +34,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Launching the GUI
+### Launching the Main GUI
 
 Please run the following commands:
 
@@ -44,7 +42,8 @@ Please run the following commands:
 cd CSUI
 java -jar CheckSoftGUI.jar
 ```
-
+First select the 
+Now press the Run CheckSoft button to test the 
 ### Scalability Test
 To run the scalability test please open a terminal and run the commands provided below :
 
