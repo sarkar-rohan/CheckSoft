@@ -90,11 +90,11 @@ Add additional notes about how to deploy this on a live system
 
 ## License
 
-This project is not meant for any resuse. 
+This project is only meant for testing purposes and is not meant for any resuse. 
 
-## Acknowledgments
+%## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+%* Hat tip to anyone whose code was used
+%* Inspiration
+%* etc
 
