@@ -32,7 +32,7 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Running tests for Verification 
 
 ### Launching the Main GUI
 
@@ -44,6 +44,8 @@ java -jar CheckSoftGUI.jar
 ```
 First select the 
 Now press the Run CheckSoft button to test the 
+
+## Running Performance Tests
 ### Scalability Test
 To run the scalability test please open a terminal and run the commands provided below :
 
@@ -75,7 +77,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [MPJExpress](http://mpj-express.org/) - open source Java message passing library
-* [WindowBuilder](https://www.eclipse.org/windowbuilder/) - GUI Development
+* [WindowBuilder](https://www.eclipse.org/windowbuilder/) - GUI Development in Eclipse
 
 ## Authors
 
