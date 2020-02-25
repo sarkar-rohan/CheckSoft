@@ -46,7 +46,7 @@ java -jar CheckSoftGUI.jar
 ```
 
 ### Scalability Test
-To run the scalability test please please open a terminal and run the commands provided below :
+To run the scalability test please open a terminal and run the commands provided below :
 
 
 ```
@@ -55,10 +55,21 @@ cd CSUI
 chmod a+x runScalability.sh
 ./runScalability.sh 5
 ```
+
+### Noise Tolerance Test
+To run the Noise Tolerance test please open a terminal and run the commands provided below :
+
+
+```
+Open a new terminal
+cd CSUI
+chmod a+x runTolerance.sh
+./runTolerance.sh 5
+```
 Please note that the parameter (5 in this case) passed is the number of iterations over which the experimental results will be averaged. The user can provide any other integer value, as desired.
 
-Once the test completes the user can view the new results in the GUI by clicking the Scalability Test button again.
-Please don't run any other tests using the GUI , when running the Sacalability Test. 
+Once the test completes the user can view the new results in the GUI by clicking the Scalability Test or the Noise Tolerance button again.
+Please don't run any other tests using the GUI , when running these tests. 
 
 ## Deployment
 
