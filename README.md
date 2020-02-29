@@ -51,18 +51,20 @@ java -jar CheckSoftSim.jar
 * On clicking the Verify Inference Logic Button, the GUI will check if acceptable parameters have been entered and then display the inferences made and the anomalies detected in a separate window. 
 ## Running Performance Tests
 ### Scalability Test
-To run the scalability test please open a terminal and run the commands provided below :
+To run the scalability test please open a new terminal and run the commands provided below :
 
 
 ```
+cd CheckSoft/CS_GUI/
 ./runScalability.sh 5
 ```
 
 ### Noise Tolerance Test
-To run the Noise Tolerance test please open a terminal and run the commands provided below :
+To run the Noise Tolerance test please open a new terminal and run the commands provided below :
 
 
 ```
+cd CheckSoft/CS_GUI/
 ./runTolerance.sh 5
 ```
 Please note that the parameter (5 in this case) passed is the number of iterations over which the experimental results will be averaged. The user can provide any other integer value, as desired.
