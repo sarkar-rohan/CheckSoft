@@ -1,0 +1,11 @@
+MPJ Express (0.44) is started in the multicore configuration
+Accuracy=1.0,
+HumanEnter=0.001815008,
+StorageInstantiate=0.001614997,
+HumanExit=0.001554996,
+StorageReturn=0.001475006,
+HandIn=0.001599407,
+HandOut=0.001678804,
+StorageUpdate=0.000501482,
+averageLatencyEvent=0.001462814,
+averageLatency=0.000836061,
