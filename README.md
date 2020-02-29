@@ -8,7 +8,7 @@ The software has been tested on an Ubuntu System.
 ### Prerequisites
 * Anaconda 
 * OpenJDK 
-* MPJExpress (The required files is packaged with this software.)
+* MPJExpress (The required files are packaged with this software.)
 * Python 2.7
 * Matplotlib 
 
@@ -69,10 +69,6 @@ Please note that the parameter (5 in this case) passed is the number of iteratio
 
 Once the test completes the user can view the new results in the GUI by clicking the Scalability Test or the Noise Tolerance button again.
 Please don't run any other tests using the GUI, when running these tests. 
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
