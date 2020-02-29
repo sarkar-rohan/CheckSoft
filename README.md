@@ -6,9 +6,9 @@ Simulator for Large-Scale testing of CheckSoft
 The software has been tested on an Ubuntu System. A conda environment needs to be created and activated as follows: 
 
 ### Prerequisites
-
-JDK 8
-MPJExpress 
+* Anaconda 
+* JDK 8
+* MPJExpress 
 
 ```
 conda create -n sim_env python=2.7 matplotlib
@@ -64,7 +64,7 @@ To run the Noise Tolerance test please open a terminal and run the commands prov
 Please note that the parameter (5 in this case) passed is the number of iterations over which the experimental results will be averaged. The user can provide any other integer value, as desired.
 
 Once the test completes the user can view the new results in the GUI by clicking the Scalability Test or the Noise Tolerance button again.
-Please don't run any other tests using the GUI , when running these tests. 
+Please don't run any other tests using the GUI, when running these tests. 
 
 ## Deployment
 
@@ -82,10 +82,4 @@ Add additional notes about how to deploy this on a live system
 ## License
 
 This project is only meant for testing purposes and is not meant for any resuse. 
-
-%## Acknowledgments
-
-%* Hat tip to anyone whose code was used
-%* Inspiration
-%* etc
 
