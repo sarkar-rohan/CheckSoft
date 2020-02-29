@@ -10,6 +10,7 @@ The software has been tested on an Ubuntu System.
 * OpenJDK 
 * MPJExpress (The required files is packaged with this software.)
 * Python 2.7
+* Matplotlib 
 
 A conda environment needs to be created to install the prequesities and then the environment needs to be activated as follows: 
 
