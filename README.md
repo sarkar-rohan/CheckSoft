@@ -35,7 +35,7 @@ chmod a+x runInitialize.sh
 Please run the following commands:
 
 ```
-java -jar CheckSoftGUI.jar
+java -jar CheckSoftSim.jar
 ```
 ### Modifying the Simulation Parameters
 * First select the Test Application
