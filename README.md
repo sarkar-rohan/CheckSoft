@@ -3,7 +3,7 @@ Simulator for Large-Scale testing of CheckSoft
 
 ## Getting Started
 
-The software has been tested on an Ubuntu System. 
+The software has been tested on an Ubuntu System. A conda environment needs to be created and activated as follows: 
 
 ### Prerequisites
 
@@ -11,17 +11,19 @@ JDK 8
 MPJExpress 
 
 ```
-
+conda create -n sim_env python=2.7 matplotlib
+conda activate sim_env
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Please run the following commands : 
 
 ```
-Give the example
+git clone https://github.com/sarkar-rohan/CheckSoft/
+cd CS_GUI
+chmod a+x runInitialize.sh
+./runInitialize.sh
 ```
 
 And repeat
