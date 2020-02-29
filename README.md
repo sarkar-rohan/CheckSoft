@@ -18,7 +18,7 @@ conda create -n cs_env -c anaconda python=2.7 matplotlib openjdk
 conda activate cs_env
 ```
 
-### Installing
+### Initializing CheckSoft: 
 
 Please run the following commands : 
 
