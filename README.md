@@ -25,15 +25,6 @@ cd CS_GUI
 chmod a+x runInitialize.sh
 ./runInitialize.sh
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running tests for Verification 
 
 ### Launching the Main GUI
@@ -41,7 +32,6 @@ End with an example of getting some data out of the system or using it for a lit
 Please run the following commands:
 
 ```
-cd CSUI
 java -jar CheckSoftGUI.jar
 ```
 ### Modifying the Simulation Parameters
@@ -61,8 +51,6 @@ To run the scalability test please open a terminal and run the commands provided
 
 
 ```
-cd CSUI
-chmod a+x runScalability.sh
 ./runScalability.sh 5
 ```
 
@@ -71,8 +59,6 @@ To run the Noise Tolerance test please open a terminal and run the commands prov
 
 
 ```
-cd CSUI
-chmod a+x runTolerance.sh
 ./runTolerance.sh 5
 ```
 Please note that the parameter (5 in this case) passed is the number of iterations over which the experimental results will be averaged. The user can provide any other integer value, as desired.
