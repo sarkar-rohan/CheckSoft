@@ -11,8 +11,8 @@ The software has been tested on an Ubuntu System. A conda environment needs to b
 * MPJExpress 
 
 ```
-conda create -n sim_env python=2.7 matplotlib
-conda activate sim_env
+conda create -n cs_env -c anaconda python=2.7 matplotlib openjdk 
+conda activate cs_env
 ```
 
 ### Installing
