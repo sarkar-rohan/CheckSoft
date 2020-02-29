@@ -3,12 +3,15 @@ Simulator for Large-Scale testing of CheckSoft
 
 ## Getting Started
 
-The software has been tested on an Ubuntu System. A conda environment needs to be created and activated as follows: 
+The software has been tested on an Ubuntu System. 
 
 ### Prerequisites
 * Anaconda 
-* JDK 8
+* OpenJDK 
 * MPJExpress 
+* Python 2.7
+
+A conda environment needs to be created to install the prequesities and then the environment needs to be activated as follows: 
 
 ```
 conda create -n cs_env -c anaconda python=2.7 matplotlib openjdk 
