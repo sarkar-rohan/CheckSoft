@@ -25,7 +25,7 @@ Please run the following commands :
 
 ```
 git clone https://github.com/sarkar-rohan/CheckSoft/
-cd CS_GUI
+cd CheckSoft/CS_GUI/
 chmod a+x runInitialize.sh
 ./runInitialize.sh
 ```
