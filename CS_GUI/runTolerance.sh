@@ -13,7 +13,7 @@ do
     	do
 	  let count++
 	  #echo -n "$i/10 -- $j/10 -- $k"#
-	  python2 Sim/Simulator.py 1000 40 $i $j > /dev/null 2>&1
+	  python Sim/Simulator.py 100 40 $i $j > /dev/null 2>&1
 	  mpjrun.sh -np 40  CheckSoft Data/ $i $j
 	  let prog=count/$1
 	  draw_progress_bar $prog
@@ -22,4 +22,4 @@ do
   echo "" #### print the new line ###
 done
 destroy_scroll_area
-python2 Sim/plotTolerance.py $1
+python Sim/plotTolerance.py $1

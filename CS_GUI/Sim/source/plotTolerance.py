@@ -135,7 +135,7 @@ def annotate_heatmap(im, data=None, valfmt="{x:.2f}",
     return texts
 
 
-with open('Results/CSNoise.csv', 'r') as csvFile:
+with open('/mnt/cloudNAS2/rohan/CSGUI/GUI/src/Results/CSNoise.csv', 'r') as csvFile:
     reader = csv.reader(csvFile)
     temp = []
     for row in reader:
@@ -165,6 +165,6 @@ fig.tight_layout()
 
 
 
-fig.savefig('Results/plot_tolerance.png')
+fig.savefig('/mnt/cloudNAS2/rohan/CSGUI/GUI/src/Results/plot_tolerance.png')
 #plt.show()
 

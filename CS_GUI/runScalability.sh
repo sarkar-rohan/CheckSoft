@@ -8,7 +8,7 @@ for (( i = 20; i <= 100; i=i+10 ))      ### Outer for loop ###
 do
     for (( j = 1 ; j <= $1; j++ )) ### Inner for loop ###
     do
-	  python2 Sim/Simulator.py 1000 $i 1 1 > /dev/null 2>&1
+	  python Sim/Simulator.py 100 $i 1 1 > /dev/null 2>&1
 	  mpjrun.sh -np $i  CheckSoft Data/ 1 1
 	  let prog=i-10+j*10/$1
 	  draw_progress_bar $prog
@@ -17,5 +17,5 @@ do
   echo "" #### print the new line ###
 done
 destroy_scroll_area
-python2 Sim/plotScalability.py $1
+python Sim/plotScalability.py $1
 

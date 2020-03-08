@@ -7,4 +7,3 @@ chmod a+x runTolerance.sh
 cd libraries
 unzip mpj-v0_44.zip
 cd ..
-
