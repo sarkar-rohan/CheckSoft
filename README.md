@@ -55,6 +55,7 @@ To run the scalability test please open a new terminal and run the commands prov
 
 
 ```
+conda activate cs_env
 cd CheckSoft/CS_GUI/
 ./runScalability.sh 5
 ```
@@ -64,6 +65,7 @@ To run the Noise Tolerance test please open a new terminal and run the commands 
 
 
 ```
+conda activate cs_env
 cd CheckSoft/CS_GUI/
 ./runTolerance.sh 5
 ```
